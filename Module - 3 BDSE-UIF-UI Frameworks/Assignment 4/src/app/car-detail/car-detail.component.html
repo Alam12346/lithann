@@ -1,0 +1,15 @@
+<div class="container" style="margin-left: 35%;">
+   <div class="row" >
+      <div *ngIf="car"class="col col-lg-4">
+         <div class="card" style="background-color: rgba(255, 255, 255, 0.255);"  >
+<h5 class="card-title">car Id : {{car.carid}} </h5>
+<p class="card-text">
+
+      <img src="{{car.photo}}" class="img-fluid"></p>
+         <p>Name car : {{car.make}} </p>
+         <p>Model car : {{car.model}} </p>
+         <p>year : {{car.year}} </p>
+         <p> {{car.desp}} </p><button type="button" (click)="goToBack()">go back</button>
+</div></div></div></div>
+
+

@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url("/assets/background.jpg") ;
+  overflow-x: hidden;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff59;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+  }
+  
+  li a:hover {
+    background-color: #ffffff;
+  }

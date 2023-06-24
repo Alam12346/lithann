@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body>
+  <nav  id="nav">
+    <ul id="ul"><li><a href="registration.html">SignUp</a></li>
+      <li><a href="home.html">Home</a></li>
+            
+            
+            <li>
+                <a href="#">Course</a>
+            <ul>
+              <li>  <a href="coursedetail.html">course detail</a> 
+                <a href="courseschedule.html">Course Schedule</a></li>
+                </ul>  
+                </li>
+                <li><a href="about.html">About</a> </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+        </nav>
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $("#nav li").hover(function() { 
+                    $(this).find("ul").slideToggle("fast"); 
+                 });
+            });
+        </script>
+<br><br><br>
+
+        <center>
+        <img src="logo.png"height="200">
+         <b> <h3>
+        an online course website that is easy to use and understand </h3></b>
+    _________________________________________________________________
+
+<br><br>
+<br><br>
+
+<h2>Find the right program for you. </h2>
+<div class="tiga" >
+    <!-- div topnav asalnya container -->
+    <div class="card">
+      <img src="html1.jpg" alt="Avatar" style="width:400px">
+      <div class="container">
+    
+
+       <div onmouseover="html1(this)" onmouseout="html2(this)" 
+       style="background-color:#d5dcdc;width:300px;">
+       <br><br><br><br><h3> Detail</h3><br><br><br> </div>
+     
+       <script>
+       function html1(obj) {
+         obj.innerHTML = " HyperText Markup Language or HTML is the   standard markup language for documents designed  be displayedin a web browser.It can be assisted  by technologies such as Cascading Style Sheets  and scripting languages such as JavaScript <br>."
+       }
+
+       function html2(obj) {
+         obj.innerHTML = "<br><br><br><br><h3> Detail</h3><br><br><br>"
+       }
+       </script>  
+       
+      </div>
+    </div>
+<!-- ================================================================ -->
+
+<div class="card">
+  <img src="css.png" alt="Avatar" style="width:260px">
+  <div class="container">
+
+
+   <div onmouseover="css1(this)" onmouseout="css2(this)" 
+   style="background-color:#d5dcdc;width:300px;">
+   <br><br><br><br><h3> Detail</h3><br><br><br> </div>
+     
+   <script>
+   function css1(obj) {
+     obj.innerHTML = "  Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.<br>. "
+   }
+   
+   function css2(obj) {
+     obj.innerHTML = "<br><br><br><br><h3> Detail</h3><br><br><br>"
+   }
+   </script>  <br><br>
+   
+  </div>
+</div>
+   
+
+
+
+
+      <div class="card">
+        <img src="javascript.webp" alt="Avatar" style="width:200px">
+        <div class="container">
+      
+  
+         <div onmouseover="javascript1(this)" onmouseout="javascript2(this)" 
+         style="background-color:#d5dcdc;width:300px;">
+        <br><br><br><h3> Detail</h3><br><br><br><br></div>
+     
+         <script>
+         function javascript1(obj) {
+           obj.innerHTML = "     JavaScript,often abbreviated to JS, is a programming language that is one of the core technologies of the World  Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior,often incorporating third-party libraries. "
+         }
+         
+         function javascript2(obj) {
+           obj.innerHTML = " <br><br><br><h3> Detail</h3><br><br><br><br>"
+         }
+         </script>  
+         
+        </div><br>
+      </div>
+  </div>
+  
+
+
+
+
+</center>
+<footer>  <div class="topnav">copyright &copy   ABC Learning Center all right reserved 20022    - <script>document.write(new Date().getFullYear())</script>
+          
+         
+  <a href="sitemap.html">SiteMap</a>    
+<a href="privacy.html">Privacy</a> 
+</div> 
+</footer>
+</body>
+</html>

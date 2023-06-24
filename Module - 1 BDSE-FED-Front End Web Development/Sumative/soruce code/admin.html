@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Admin</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.js"></script>
+    <style>
+        
+        .form-group{ margin: 20px 0;}
+        input{ height: 30px; width: 90%; padding: 5px; }
+        main{
+            flex: 1;
+            margin: 20px 5px;
+            width: 100%; 
+        }
+           </style>
+
+
+</head>
+<body>
+    <nav  id="nav">
+        <img src="logo.png"  height="38"/>
+        <ul id="ul"><li><a href="home.html">Home</a></li>
+                
+                <li>
+                    <a href="#">Course</a>
+                <ul>
+                  <li>  <a href="coursedetail.html">course detail</a> 
+                    <a href="courseschedule.html">Course Schedule</a></li>
+                    </ul>  
+                    </li>
+                    <li><a href="about.html">About</a> </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </div>
+    
+            </nav>
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+            <script>
+                $(document).ready(function() {
+                    $("#nav li").hover(function() { 
+                        $(this).find("ul").slideToggle("fast"); 
+                     });
+                });
+            </script>
+    <br><br><br>
+   <main>
+        
+          <center><h1 class="judul">DASHBOARD - ADMIN</h1>
+            <h4>CRUD - ABC Learner Data</h4>
+        <hr><br>
+        
+            
+        <div class="tiga">
+            <div class="card"> 
+        <div style="overflow-y: scroll; height:300px; width:70%; background-color:rgba(0, 0, 0, 0.034);"> 
+        <table id="FormData" border="1" >
+            <tr>
+                <th>No</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>email</th>
+                <th>Date Of Birth</th>
+                <th>Action</th>
+            </tr>
+        </table></div>
+    </div></div>
+</center>
+    </main><br>
+    <hr>
+    <div class="tiga">
+        <div class="card">
+   <center> Edit Data
+    
+    <form id="editt">
+
+        <div class="form-group">
+            <input type="text" name="fname" id="fname" placeholder="First Name" required>
+        </div>
+        <div class="form-group">
+            <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+        </div>
+        <div class="form-group">
+            <input type="email" name="email" id="email" placeholder="Email Address" required>
+        </div>
+        <div class="form-group">
+            <input type="Date" name="pwd" id="pwd" placeholder="Date Of Birth" required>
+        </div>
+
+
+
+    <div class="form-group">
+
+        <button type="submit"  style="background: rgb(0, 0, 0); color: #fff; padding: 10px; width: 90px; border: solid 3px rgb(0, 170, 255); cursor: pointer;">Edit</button>
+       
+    </div>
+
+</form></center></div>
+<div class="card"><center> Sign Up 
+ <form role="form" onsubmit="signUp2(event);" autocomplete="off">
+                <div class="form-group">
+                    <input type="text" name="fname2" id="fname2" placeholder="First Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="lname2" id="lname2" placeholder="Last Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email2" id="email2" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <input type="Date" name="pwd2" id="pwd2" placeholder="Date Of Birth" required>
+                </div>
+
+                  <div class="form-group">
+
+                <button type="submit"style="background: rgb(0, 0, 0); color: #fff; padding: 10px; width: 90px; border: solid 3px rgb(0, 170, 255); cursor: pointer;"                >Sign</button>
+                            </div></center></form></div></div>
+
+    <footer>  <div class="topnav">copyright &copy   ABC Learning Center all right reserved 20022    - <script>document.write(new Date().getFullYear())</script>
+          
+         
+        <a href="sitemap.html">SiteMap</a>    
+      <a href="privacy.html">Privacy</a> 
+    </div>
+      </footer>
+      <script src="script.js"></script>
+    </body>
+               </html>
+
+     

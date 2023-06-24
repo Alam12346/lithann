@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Site Map</title>
+    <style>
+     fieldset{
+            background-color: aliceblue;
+            width: 600px;
+            padding: 1em;
+            font:80%/1 sans-serif;
+            border:5px solid #000000;
+            margin: 0 auto;
+        }
+
+        .container {
+            width: 100%;
+            background-image: url("contactus1.jpg");
+            background-attachment: fixed;  
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <nav  id="nav">
+        <img src="logo.png"  height="38"/>
+        <ul><li><a href="home.html">Home</a></li>
+                
+                
+                <li>
+                    <a href="course.html">Course</a>
+                <ul>
+                    <li>  <a href="coursedetail.html">course detail</a> 
+                        <a href="courseschedule.html">Course Schedule</a></li>
+                    </ul>  
+                    </li>
+                    <li><a href="about.html">About</a> </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </div>
+    
+            </nav>
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+            <script>
+                $(document).ready(function() {
+                    $("#nav li").hover(function() { 
+                        $(this).find("ul").slideToggle("fast"); 
+                     });
+                });
+            </script>
+    <div class="container">
+    <br><br><br> <center>
+<fieldset><legend align="center"> <h2>SiteMap</h2></legend><br>
+<div class="map">
+    <br><br>
+    <a href="home.html">Home</a><br><br><br>
+    <a href="coursedetail.html">coursedetail</a> <br><br><br>
+    <a href="courseschedule.html">courseschedule</a><br><br><br>
+    <a href="about.html">About</a><br><br><br>
+    <a href="contact.html">Contact</a><br><br><br>
+    <a href="registration.html">Sign Up</a><br><br><br>
+    <a href="privacy.html">privacy policy</a><br><br><br>
+    <a href="sitemap.html">SiteMap</a><br><br><br>
+</div></fieldset>
+       </div></center>
+<footer>  <div class="topnav">copyright &copy   ABC Learning Center all right reserved 2022    - <script>document.write(new Date().getFullYear())</script>
+          
+         
+    <a href="sitemap.html">SiteMap</a>    
+<a href="privacy.html">Privacy</a> 
+ </div> 
+</footer>
+</body>
+</html>

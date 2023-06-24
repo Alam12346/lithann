@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="style.css">
+   <style>
+        
+        .form-group{ margin: 20px 0;}
+        input{ height: 30px; width: 90%; padding: 5px; }
+        main{
+            flex: 1;
+            margin: 20px 5px;
+            width: 100%; 
+        }
+           </style>
+</head>
+<body>
+    
+    <nav  id="nav">
+        <img src="logo.png"  height="38"/>
+        <ul id="ul"><li><a href="home.html">Home</a></li>
+                
+                
+                <li>
+                    <a href="#">Course</a>
+                <ul>
+                  <li>  <a href="coursedetail.html">course detail</a> 
+                    <a href="courseschedule.html">Course Schedule</a></li>
+                    </ul>  
+                    </li>
+                    <li><a href="about.html">About</a> </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </div>
+    
+            </nav>
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+            <script>
+                $(document).ready(function() {
+                    $("#nav li").hover(function() { 
+                        $(this).find("ul").slideToggle("fast"); 
+                     });
+                });
+            </script>
+            <div class="tiga">
+                <div class="card" ><br><br><br><br>
+    <img src="logo.png" alt="logo" style="width: 600px;">
+   <center> <b> <h3>
+        an online course website that is easy to use and understand </h3></b>
+        __________________________________________
+        <!-- i deliberately put a line because  <HR> is not thick -->
+    </center>
+    </div>
+
+                <div class="card" align="center">    <main>
+        <fieldset><legend align="center"><h2>SIGNUP FORM</h2></legend>
+            <form role="form" onsubmit="signUp(event);" autocomplete="off">
+                <div class="form-group">
+                    <input type="text" name="fname" id="fname" placeholder="First Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" id="email" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <input type="Date" name="pwd" id="pwd" placeholder="Date Of Birth" required>
+                </div>
+
+                
+
+            <div class="form-group">
+
+                <button type="submit" style="background: dodgerblue; color: #fff; padding: 10px; border: solid 1px dodgerblue; cursor: pointer;">Sign Up</button>
+            </div>
+            <p> Atau</p>
+            
+        <!-- i deliberately put a line because  <HR> is not thick -->
+            __________________________ <br> <br>
+            <button ><img src="facebookk-removebg-preview.png" alt="facebook" height="30px"> facebook</button> |
+            <button ><img src="Gmail-Logo1.png" alt="Google" height="30px"> Google</button><br><br>
+        </form>
+       </fieldset> 
+    </main></div>
+<br><br><br>
+
+
+
+
+    </div>
+
+    <script type="text/javascript" src="./script.js"></script>
+    
+<footer>  <div class="topnav">copyright &copy   ABC Learning Center all right reserved 20022    -
+     <script>document.write(new Date().getFullYear())</script>
+          
+         
+    <a href="sitemap.html">SiteMap</a>    
+  <a href="privacy.html">Privacy</a> 
+  </div> 
+  </footer>
+</body>
+</html>
+
+
+

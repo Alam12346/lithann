@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ThankYou!</title>
+<style>
+  .button {
+      overflow: hidden;
+    }
+    
+    .button a {
+      color: #000000;
+      text-align: center;
+      padding: 14px 50px;
+      text-decoration: none;
+      font-size: 20px;
+    } 
+    
+    .button a:hover {
+      background-color: rgb(0, 0, 0);
+      color: rgb(254, 254, 255);
+    }
+    
+    .button a.active {
+      background-color: #ffffff;
+      color: white;
+    }
+    
+    </style>
+  </head>
+<body>
+  <nav  id="nav" >
+    <img src="logo.png"  height="38"/>
+    <ul><li><a href="home.html">Home</a></li>
+            
+            
+            <li>
+                <a href="#">Course</a>
+            <ul>
+                  <li>  <a href="coursedetail.html">course detail</a> 
+                    <a href="courseschedule.html">Course Schedule</a></li>
+                </ul>  
+                </li>
+                <li><a href="about.html">About</a> </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+
+        </nav>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $("#nav li").hover(function() { 
+                    $(this).find("ul").slideToggle("fast"); 
+                 });
+            });
+        </script>
+<br><br><br><br><br><br><br>
+
+           <center>  <h2> ThankYou! </h2><br><br><br><br>
+            <div class="button">
+          <a href="registration.html">Back</a></div></center>
+            <br> </h2><br><br><br><br>
+                  
+            
+     
+  <footer>  <div class="topnav"> copyright &copy   ABC Learning Center all right reserved 20022    - <script>document.write(new Date().getFullYear())</script>
+          
+         
+    <a href="sitemap.html">SiteMap</a>    
+<a href="privacy.html">Privacy</a> 
+ </div> 
+</footer>
+</body>
+</html>

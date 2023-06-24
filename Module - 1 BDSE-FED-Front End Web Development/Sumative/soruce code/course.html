@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Course</title>
+   
+</head>
+<body>
+  <nav  id="nav" class="navigation">
+    <img src="logo.png"  height="38"/>
+    <ul><li><a href="home.html">Home</a></li>
+            
+            
+            <li>
+                <a href="#">Course</a>
+            <ul>
+              <li>  <a href="coursedetail.html">course detail</a> 
+                <a href="courseschedule.html">Course Schedule</a></li>
+                </ul>  
+                </li>
+                <li><a href="about.html">About</a> </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+
+        </nav>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $("#nav li").hover(function() { 
+                    $(this).find("ul").slideToggle("fast"); 
+                 });
+            });
+        </script>
+
+        <center>
+<br><br>
+<div class="tiga" >
+    <!-- div topnav asalnya container -->
+      <div class="card">
+      <img src="html1.jpg" alt="Avatar" style="width:300px">
+      <div class="container">
+        <h4><b>Learn basic HTML. you will learn HTML with the experts</b></h4>
+       <br><br>
+        <a href="coursehtml.html" style="width:100%"><b> Detail</b></a> 
+      </div>
+    </div>
+    <!-- -------------------------------------------------------------- -->
+    <div class="card">
+      <img src="css.png" alt="Avatar" style="width:300px">
+      <div class="container">
+              <!-- div topnav asalnya container -->
+        <h4><b>Learn basic CSS. you will learn CSS with the experts</b></h4>
+        <br><br>
+        <a href="coursecss.html" style="width:100%"><b> Detail</b></a> 
+      </div>
+    </div>
+    <!-- -------------------------------------------------------------- -->
+    <div class="card">
+      <img src="java.png" alt="Avatar" style="width:200px">
+      <div class="container">
+              <!-- div topnav asalnya container -->
+        <h4><b>        <h4><b>Learn basic JAVA. you will learn JAVA with the experts</b></h4>
+    </b></h4>
+    <br><br>
+       <a href="coursejava.html" style="width:100%"> <b> Detail</b></a> 
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="topnav">
+ 
+     <a href="sitemap.html">SiteMap</a>    
+ <a href="privacy.html">Privacy</a> 
+  </div> </footer>
+  <footer>  <b> copyright &copy   ABC Learning Center all right reserved 20022    - <script>document.write(new Date().getFullYear())</script>  </b></footer>
+</body>
+</html>

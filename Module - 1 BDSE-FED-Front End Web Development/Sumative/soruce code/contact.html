@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+<style>
+
+        fieldset{
+            background-color: rgb(213, 236, 255);
+            width: 600px;
+            padding: 1em;
+            font:80%/1 sans-serif;
+            border:5px solid #000000;
+            margin: 0 auto;
+        }
+
+        .container {
+            width: 100%;
+            background-image: url("contactus1.jpg");
+            background-attachment: fixed;  
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .form {
+  margin: 40px;
+  position: absolute;
+}
+label {
+  color:  #c2c2c5;
+  display: block;
+  font-size: 14px;
+  height: 16px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+input {
+  background: transparent;
+  border: 0;
+  color: #010000;
+  font-size: 20px;
+  height: 30px;
+  line-height: 30px;
+  outline: none !important;
+  width: 100%;
+}
+input::-moz-focus-inner { 
+  border: 0; 
+}
+#submit {
+  color: #37375e;
+  margin-top: 40px;
+  transition: color 300ms;
+}
+#submit:focus {
+  color: #f2f2f2;
+}
+#submit:active {
+  color: #d0d0d2;
+}
+</style></head>
+<body>
+  <nav  id="nav" >
+    <img src="logo.png"  height="38"/>
+    <ul><li><a href="home.html">Home</a></li>
+            
+            
+            <li>
+                <a href="#">Course</a>
+            <ul>
+                  <li>  <a href="coursedetail.html">course detail</a> 
+                    <a href="courseschedule.html">Course Schedule</a></li>
+                </ul>  
+                </li>
+                <li><a href="about.html">About</a> </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+
+        </nav>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $("#nav li").hover(function() { 
+                    $(this).find("ul").slideToggle("fast"); 
+                 });
+            });
+        </script>
+
+
+            <div class="container">
+                <fieldset><legend align="center"><h2> Contact US </h2></legend> <br> <br>
+                    <center> <h2><p> Click </p><br></h2>
+                     <a href="https://www.linkedin.com/" > <img src="gmail.png"  height="70"></a>
+                     <a href="https://www.linkedin.com/" > <img src="linkedin.png"  height="70"></a>
+                     <a href="https://twitter.com/" > <img src="twitter.png"  height="70"></a>
+                     <a href="https://www.facebook.com/" > <img src="facebook.png"  height="70"></a>
+                   </center><br>
+                <hr> <br><br><p> <h2><center> Or</center></h2></p>
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+                        <label for="password">complaints or suggestions</label>
+                        <textarea name="teks" id="password" cols="30" rows="5"></textarea>
+                 <br>  <a href="#" onclick="alert('Not Found')"><center> Submit</center></a>
+                      
+            </fieldset>
+            </div>
+            
+     
+  <footer>  <div class="topnav"> copyright &copy   ABC Learning Center all right reserved 20022    - <script>document.write(new Date().getFullYear())</script>
+          
+         
+    <a href="sitemap.html">SiteMap</a>    
+<a href="privacy.html">Privacy</a> 
+ </div> 
+</footer>
+</body>
+</html>
